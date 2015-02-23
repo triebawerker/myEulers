@@ -1,5 +1,5 @@
 require 'rspec'
-require '../lib/palindrome'
+require_relative '../lib/palindrome'
 
 describe 'A two_digits_palindrome from a 3-digit number' do
   it 'should count a 3 digit max_palindrome' do
